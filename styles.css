@@ -11,7 +11,7 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	min-height: 100vh;
-    background-color:azure;
+    
 }
 
 /* ____________________________________________NavBar________________________________________________________________________________ */
@@ -29,7 +29,8 @@ body {
 	padding: 17px 20px;
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	font-size: 20px;
-	background-color: greenyellow;
+	background-color:azure;
+
 	width: max-content;
     color: black;
     box-shadow: green 0px 30px 60px -12px inset, green 0px 18px 36px -18px inset;
@@ -43,7 +44,7 @@ body {
 }
 .navbar-list a{
     text-decoration: none;
-    color: greenyellow;  
+    color: azure;  
     font-size: larger; 
 	font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -59,10 +60,12 @@ body {
 	display: flex;
 	gap: 30px;
 	flex-direction: column;
-	background-color: antiquewhite;
+	
 }
 input,
 select {
+    background-color:azure;
+
 	height: 30px;
 	padding: 0 10px;
 	width: 200px;
@@ -70,7 +73,7 @@ select {
 	font-family: inherit;
 	color: inherit;
     border-radius: 100px;
-    border-color: greenyellow;
+    
 }
 .input-wrapper {
 	display: flex;
@@ -86,7 +89,9 @@ select {
 .btn button {
 	width: 200px;
 	height: 30px;
-	background-color: greenyellow;
+	background-color: white;
+	
+
 }
 
 
@@ -97,7 +102,7 @@ button {
   color: green;
   cursor: pointer;
   display: inline-block;
-    margin-bottom: 30px;
+	margin-bottom: 30px;
  
   text-align: center;
   text-decoration: none;
@@ -124,6 +129,7 @@ input:hover,select:hover, a:hover, .logo:hover, img:hover, .recipe:hover, button
 	padding: 20px 0;
 	gap: 60px;
     margin-top: 30px;
+	
 }
 .breakfast,
 .lunch,
@@ -146,7 +152,7 @@ input:hover,select:hover, a:hover, .logo:hover, img:hover, .recipe:hover, button
 }
 .meal-plan button {
 	height: 30px;
-	background-color: greenyellow;
+	background-color: white;
     margin: 20px;
 }
 .head-breakfast,
